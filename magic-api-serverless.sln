@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "magic-api-serverless", "magic-api-serverless\magic-api-serverless.csproj", "{47CDC22A-F528-464A-91AC-32DE641D7A91}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "magic-api-serverless.Tests", "magic-api-serverless.Tests\magic-api-serverless.Tests.csproj", "{1E522C09-DF34-465C-BF55-E6F5E44D1617}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "magic-api-serverless.api", "magic-api-serverless.api\magic-api-serverless.api.csproj", "{F43CDA7F-CAD3-4D90-8AE6-45726DD36E30}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "magic-api-serverless.core", "magic-api-serverless.core\magic-api-serverless.core.csproj", "{698F0868-9FDE-4AA7-9ABA-1C7F7F86A9D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{83A70434-9A9B-4233-8FE4-943C68141F3D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47CDC22A-F528-464A-91AC-32DE641D7A91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47CDC22A-F528-464A-91AC-32DE641D7A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47CDC22A-F528-464A-91AC-32DE641D7A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47CDC22A-F528-464A-91AC-32DE641D7A91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E522C09-DF34-465C-BF55-E6F5E44D1617}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E522C09-DF34-465C-BF55-E6F5E44D1617}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E522C09-DF34-465C-BF55-E6F5E44D1617}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E522C09-DF34-465C-BF55-E6F5E44D1617}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F43CDA7F-CAD3-4D90-8AE6-45726DD36E30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F43CDA7F-CAD3-4D90-8AE6-45726DD36E30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F43CDA7F-CAD3-4D90-8AE6-45726DD36E30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F43CDA7F-CAD3-4D90-8AE6-45726DD36E30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{698F0868-9FDE-4AA7-9ABA-1C7F7F86A9D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{698F0868-9FDE-4AA7-9ABA-1C7F7F86A9D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{698F0868-9FDE-4AA7-9ABA-1C7F7F86A9D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{698F0868-9FDE-4AA7-9ABA-1C7F7F86A9D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {93C20373-42B5-422F-8DC9-236F753E110D}
+	EndGlobalSection
+EndGlobal
